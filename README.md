@@ -10,7 +10,7 @@ Useful when the decision boundary is non-linear and complex
 Optimization Objective  <br>
 The cost function is known as Hinge Loss <br>
 Will not output a probability: Hypothesis will predict 1 if (theta times x greater than or equal 0, otherwise 0)  <br>
-Symbol means much, much larger  <br> >>
+Symbol means much, much larger >>  <br> 
 This is the shape of the cost function when y = 1 (theta times x >> 0) \_   <br>
 This is the shape of the cost function when y = 0 (theta times x << 0)  _/   <br>
 
