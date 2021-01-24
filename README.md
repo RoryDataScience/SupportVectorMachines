@@ -1,4 +1,4 @@
-# SupportVectorMachines
+# Support Vector Machines
  For projects involving Support Vector Machine Classification & Regression
 
 What are Support Vector Machines?  <br>
