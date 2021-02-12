@@ -20,7 +20,7 @@ Parameters: C and Sigma (Gamma) <br>
 	Large C = small lambda --- Lower bias and high variance --- More prone to overfit <br>
 	Small C = large lambda --- High bias and Low variance --- More prone to underfit <br>
 - Sigma = This determines the smoothness of the kernel function <br>
-	Determines the smoothness of the feature vector when kernels are implements  <br
+	Determines the smoothness of the feature vector when kernels are implements  <br>
 	If sigma**2 is small --- Features vary less smoothly --- Low bias and High variance --- More prone to overfit <br>
 	If sigma**2 is large --- Features vary more smoothly --- High bias and Low variance --- More prone to underfit <br>
 
