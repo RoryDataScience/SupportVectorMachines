@@ -10,12 +10,12 @@ Project One: Application of Linear and RBF Support Vector Machines to MNIST Data
 
 # Support Vector Machines
 What are Support Vector Machines?  <br>
-An SVM maps training examples to points in space so as to maximise the width of the gap between the two categories. New examples are then mapped into that same space and predicted to belong to a category based on which side of the gap they fall.
-In addition to performing linear classification SVMs can efficiently perform a non-linear classification using what is called the kernel trick, implicitly mapping their inputs into high-dimensional feature spaces.
-When data are unlabeled, supervised learning is not possible, and an unsupervised learning approach is required, which attempts to find natural clusters of the data to groups, and then map new data to these formed groups. The support-vector clustering algorithm, applies the statistics of support vectors, developed in the support vector machines algorithm, to categorize unlabeled data, and is one of the most widely used clustering algorithms in industrial applications
-Useful when the decision boundary is non-linear and complex
-Usually used for binary classification but can be extended to multiclass (supporting both one-versus-one and one-versus-all)
-Parameters: C and Sigma (Gamma)
+An SVM maps training examples to points in space so as to maximise the width of the gap between the two categories. New examples are then mapped into that same space and predicted to belong to a category based on which side of the gap they fall. <br>
+In addition to performing linear classification SVMs can efficiently perform a non-linear classification using what is called the kernel trick, implicitly mapping their inputs into high-dimensional feature spaces. <br>
+When data are unlabeled, supervised learning is not possible, and an unsupervised learning approach is required, which attempts to find natural clusters of the data to groups, and then map new data to these formed groups. The support-vector clustering algorithm, applies the statistics of support vectors, developed in the support vector machines algorithm, to categorize unlabeled data, and is one of the most widely used clustering algorithms in industrial applications <br>
+Useful when the decision boundary is non-linear and complex <br>
+Usually used for binary classification but can be extended to multiclass (supporting both one-versus-one and one-versus-all) <br>
+Parameters: C and Sigma (Gamma) <br>
 - C = 1/lambda (where lambda is the regularisation term)  <br>
 	Large C = small lambda --- Lower bias and high variance --- More prone to overfit <br>
 	Small C = large lambda --- High bias and Low variance --- More prone to underfit <br>
